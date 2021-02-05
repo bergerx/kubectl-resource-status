@@ -5,7 +5,7 @@ go 1.12
 replace github.com/gorilla/rpc v1.2.0+incompatible => github.com/gorilla/rpc v1.2.0 // https://github.com/gorilla/rpc/issues/65#issuecomment-518834577
 
 require (
-	github.com/Masterminds/sprig/v3 v3.0.2
+	github.com/Masterminds/sprig/v3 v3.2.2
 	github.com/dustin/go-humanize v1.0.0
 	github.com/fatih/color v1.9.0
 	github.com/pkg/errors v0.9.1
