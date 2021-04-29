@@ -1,0 +1,51 @@
+version: 2
+updates:
+- package-ecosystem: gomod
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  reviewers:
+  - bergerx
+  assignees:
+  - bergerx
+  ignore:
+  - dependency-name: k8s.io/metrics
+    versions:
+    - 0.20.2
+    - 0.20.3
+    - 0.20.4
+    - 0.20.5
+  - dependency-name: k8s.io/cli-runtime
+    versions:
+    - 0.20.2
+    - 0.20.3
+    - 0.20.4
+    - 0.20.5
+  - dependency-name: k8s.io/kubectl
+    versions:
+    - 0.20.2
+    - 0.20.3
+    - 0.20.4
+    - 0.20.5
+  - dependency-name: k8s.io/api
+    versions:
+    - 0.20.2
+    - 0.20.3
+    - 0.20.4
+    - 0.20.5
+  - dependency-name: k8s.io/client-go
+    versions:
+    - 0.20.2
+    - 0.20.3
+    - 0.20.4
+    - 0.20.5
+  - dependency-name: k8s.io/apimachinery
+    versions:
+    - 0.20.2
+    - 0.20.3
+    - 0.20.4
+    - 0.20.5
+  - dependency-name: github.com/Masterminds/sprig/v3
+    versions:
+    - 3.2.0
